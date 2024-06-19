@@ -26,12 +26,13 @@ main {
   padding: 20px;
   background-color: #1b263b;
   border-radius: 8px;
-  box-shadow: 0;
+  box-shadow: none;
 }
 
 article {
   margin-bottom: 40px;
   padding-bottom: 20px;
+  border-bottom: none;
 }
 
 .thumbnail {
@@ -45,7 +46,7 @@ article {
   max-height: 256px;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0;
+  box-shadow: none;
 }
 
 .content h2 {
