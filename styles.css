@@ -1,74 +1,77 @@
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #1b263b;
-  color: #dbe2ef;
-}
-
-header {
-  background-color: #0f4c75;
-  color: #dbe2ef;
-  text-align: center;
-  padding: 40px 20px;
-  border-bottom: 3px solid #3282b8;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-  font-weight: 700;
-}
-
-main {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #1b263b;
-  border-radius: 8px;
-  box-shadow: none;
-}
-
-article {
-  margin-bottom: 40px;
-  padding-bottom: 20px;
-  border-bottom: none;
-}
-
-.thumbnail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.thumbnail img {
-  max-height: 256px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: none;
-}
-
-.content h2 {
-  color: #3282b8;
-  font-size: 1.75em;
-  margin-bottom: 10px;
-}
-
-.date {
-  color: #a89984;
-  font-style: italic;
-  margin-bottom: 20px;
-}
-
-a {
-  color: #3282b8;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #bbe1fa;
-  text-decoration: underline;
-}
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1128;
+    color: #e0e1dd;
+  }
+  
+  header {
+    background-color: #001f54;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid #0077b6;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0a1128;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0077b6;
+  }
+  
+  .thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .thumbnail img {
+    max-height: 256px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0077b6;
+    font-size: 1.75em;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    color: #a89984;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #90e0ef;
+    text-decoration: underline;
+  }
+  
