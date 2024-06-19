@@ -9,16 +9,27 @@ body {
   header {
     background-color: #001f54;
     color: #e0e1dd;
+    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
     padding: 40px 20px;
     border-bottom: 3px solid #0077b6;
   }
   
-  header h1 {
-    margin: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 2.5em;
-    font-weight: 700;
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    color: #90e0ef;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #0077b6;
+    text-decoration: underline;
   }
   
   main {
@@ -28,6 +39,8 @@ body {
     background-color: #0a1128;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 0;
   }
   
   article {
@@ -73,5 +86,4 @@ body {
   a:hover {
     color: #90e0ef;
     text-decoration: underline;
-  }
-  
+  }  
